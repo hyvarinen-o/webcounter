@@ -16,4 +16,5 @@ Open And Configure Browser
         New Browser  browser=${BROWSER}  headless=False  slowMo=${DELAY}
     END
     New Context
-    New Page  about:blank
+    New Page  ${HOME_URL}
+    Click  button >> text=Nollaa
